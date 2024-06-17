@@ -40,12 +40,15 @@ defmodule Mosaic.MixProject do
       # documentation
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
 
+      # quality
+      {:styler, "~> 0.11", only: [:dev, :test], runtime: false},
+
       # publish
       {:git_ops, "~> 2.6.1", only: [:dev]}
     ]
   end
 
-  defp package() do
+  defp package do
     [
       name: :mosaic,
       maintainers: "Shirish Goyal",
