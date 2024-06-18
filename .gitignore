@@ -29,5 +29,5 @@ mosaic-*.tar
 .mise.*
 
 # Code editor config
-.vscode
-.elixir_ls
+/.vscode/
+/.elixir_ls/

@@ -7,6 +7,10 @@ APP_NAME := "mosaic"
 help: 
     @just --list
 
+# generate documentation
+docs:
+    mix docs -f html
+
 # create a new release
 publish:
     mix git_ops.release

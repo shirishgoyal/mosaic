@@ -65,7 +65,7 @@ defmodule Mosaic.MixProject do
       source_url: @source_url,
       source_ref: "v#{@version}",
       extras: [
-        "README.md"
+        "docs/readme.md"
       ]
     ]
   end
