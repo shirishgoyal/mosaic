@@ -1,5 +1,7 @@
 # Mosaic
 
+<img src="https://github.com/shirishgoyal/mosaic/raw/main/logo.png" alt="logo" width="200"/>
+
 Opinionated UI Components for Phoenix Developers
 
 ## Installation

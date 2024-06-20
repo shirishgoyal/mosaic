@@ -37,6 +37,8 @@ defmodule Mosaic.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
+      {:phoenix_live_view, "~> 0.20.14"},
+
       # documentation
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
 
